@@ -33,52 +33,52 @@ int main(int argc, char** argv) {
 
 	double resultados;
 
-	std::cout << "Escolha uma operação" << std::endl;
+	std::cout << "Escolha uma operaÃ§Ã£o" << std::endl;
 		std::cin >> operacao;
 
 
 
 	switch (operacao) {
 		case '+':
-			std::cout << "Digite o primeiro número" << std::endl;
+			std::cout << "Digite o primeiro nÃºmero" << std::endl;
 			std::cin >> numeroA;
-			std::cout << "Digite o segundo número" << std::endl;
+			std::cout << "Digite o segundo nÃºmero" << std::endl;
 			std::cin >> numeroB;
 			resultados = soma(numeroA, numeroB);
-				break;
+			break;
 		case '/':
-			std::cout << "Digite o primeiro número" << std::endl;
+			std::cout << "Digite o primeiro nÃºmero" << std::endl;
 			std::cin >> numeroA;
-			std::cout << "Digite o segundo número" << std::endl;
+			std::cout << "Digite o segundo nÃºmero" << std::endl;
 			std::cin >> numeroB;
 			resultados = divisao(numeroA, numeroB);
-						break;
+			break;
 		case '*':
-			std::cout << "Digite o primeiro número" << std::endl;
+			std::cout << "Digite o primeiro nÃºmero" << std::endl;
 			std::cin >> numeroA;
-			std::cout << "Digite o segundo número" << std::endl;
+			std::cout << "Digite o segundo nÃºmero" << std::endl;
 			std::cin >> numeroB;
 			resultados = multiplica(numeroA, numeroB);
-						break;
+			break;
 		case '-':
-			std::cout << "Digite o primeiro número" << std::endl;
+			std::cout << "Digite o primeiro nÃºmero" << std::endl;
 			std::cin >> numeroA;
-			std::cout << "Digite o segundo número" << std::endl;
+			std::cout << "Digite o segundo nÃºmero" << std::endl;
 			std::cin >> numeroB;
 			resultados = subtra(numeroA, numeroB);
-								break;
+			break;
 		case '^':
 			std::cout << "Digite a base" << std::endl;
 			std::cin >> numeroA;
 			std::cout << "Digite o exponencial" << std::endl;
 			std::cin >> numeroB;
 			resultados = pot(numeroA, numeroB);
-										break;
+			break;
 		case 'e':
-			std::cout << "Digite o número" << std::endl;
+			std::cout << "Digite o nÃºmero" << std::endl;
 			std::cin >> numeroA;
 			resultados = expo(numeroA);
-														break;
+			break;
 	}
 
 	std::cout << resultados << std::endl;
